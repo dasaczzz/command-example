@@ -1,0 +1,56 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f1f3f4;
+  padding: 10px;
+  border-bottom: 1px solid #d1d1d1;
+  gap: 2rem;
+}
+
+.topbar-buttons-div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.topbar-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.topbar-button:hover {
+  background: #e0e0e0;
+}
+
+.topbar-button:active {
+  transform: scale(0.95);
+}
+
+.docs-textarea {
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  resize: none;
+  font-family: "Arial", sans-serif;
+}
+
+.docs-textarea:focus {
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.2);
+}
